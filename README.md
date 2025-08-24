@@ -2,8 +2,11 @@
 
 Welcome to the official repository for my personal portfolio. This is a complete full-stack web application built from the ground up using the MERN stack (MongoDB, Express.js, React.js, Node.js). It showcases my skills, projects, and professional journey.
 
-![Portfolio Screenshot](https://i.imgur.com/your-screenshot-url.png) 
-*(Note: Aap yahan apne portfolio ka ek accha sa screenshot lekar uska link daal sakte hain. Agar abhi nahi hai, to is line ko hata dein.)*
+![Portfolio Screenshot]
+
+![image1](https://github.com/user-attachments/assets/6d839e3e-4525-464c-b6ba-da8233bc4546)
+
+
 
 ---
 
