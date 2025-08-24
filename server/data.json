@@ -1,0 +1,155 @@
+{
+  "skills": [
+    { "name": "React.js", "category": "Frontend & backend" },
+    { "name": "JavaScript (ES6+)", "category": "Frontend & backend" },
+    { "name": "HTML5", "category": "Frontend & backend" },
+    { "name": "CSS3", "category": "Frontend & backend" },
+    { "name": "Bootstrap", "category": "Frontend & backend" },
+    { "name": "Node.js", "category": "Frontend & backend" },
+    { "name": "Express.js", "category": "Frontend & backend" },
+    { "name": "MongoDB", "category": "Databases" },
+    { "name": "SQL", "category": "Databases" },
+    { "name": "GitHub", "category": "Tools & Platforms" },
+    { "name": "VS Code", "category": "Tools & Platforms" },
+    { "name": "REST APIs", "category": "Tools & Platforms" },
+    { "name": "Power BI", "category": "Tools & Platforms" },
+    { "name": "Python", "category": "Familiar With" },
+    { "name": "Django", "category": "Familiar With" },
+    { "name": "Machine Learning", "category": "Familiar With" },
+    { "name": "Artificial Intelligence", "category": "Familiar With" },
+    { "name": "Analytics tools", "category": "Familiar With" },
+    { "name": "Problem Solving", "category": "Soft Skills" },
+    { "name": "Analytical Thinking", "category": "Soft Skills" },
+    { "name": "Team Collaboration", "category": "Soft Skills" },
+    { "name": "Fast Learner", "category": "Soft Skills" }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Babu Banarasi Das University, Lucknow",
+      "subjects": ["Specialization: Data Science & Artificial Intelligence"],
+      "year": "2023 - 2025",
+      "grade": "8.71 CGPA"
+    },
+    {
+      "degree": "Bachelor of Science (B.Sc)",
+      "institution": "Lucknow Christian Degree College, Lucknow University",
+      "subjects": ["Computer Science", "Mathematics"],
+      "year": "2019 - 2022",
+      "grade": "57.41%"
+    },
+    {
+      "degree": "Class XII (UP Board)",
+      "institution": "VKS Saraswati Vidya Niketan Inter College",
+      "subjects": ["Hindi", "English", "PCM"],
+      "year": "2019",
+      "grade": "67.60%"
+    },
+    {
+      "degree": "Class X (CBSE)",
+      "institution": "Children's Academy Senior Secondary School",
+      "subjects": ["Hindi", "English", "Science", "Social Science", "Mathematics"],
+      "year": "2017",
+      "grade": "7.8 CGPA"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Personal Portfolio Website (Full-Stack MERN Application)",
+       "slug": "personal-portfolio-mern",
+      "shortDescription": "Developed a complete full-stack application using the MERN stack, featuring a RESTful API with Node.js and Express.js to handle project and contact form data.",
+      "detailedDescription": "A dynamic, full-stack web application featuring a custom Content Management System (CMS) built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project is a fully functional, dynamic personal portfolio designed and developed from the ground up. Unlike a static website, this application features a complete backend and a secure, custom-built administrative panel. This allows for seamless, real-time management of portfolio content—including projects, skills, and personal information—without requiring any changes to the codebase or redeployment. The application is built on a client-server architecture, with a robust RESTful API serving data to a responsive, modern React frontend, delivering a clean and performant user experience.",
+      "keyFeatures": [
+        "Dynamic Content Management: Developed a secure, custom-built admin dashboard for managing all portfolio content. The administrator can perform full CRUD (Create, Read, Update, Delete) operations on projects and skills sections.",
+        "Secure JWT Authentication: Implemented a secure authentication system using JSON Web Tokens (JWT) to protect the admin panel and its associated API endpoints. User credentials are encrypted using bcrypt.js to ensure database security.",
+        "RESTful API: Designed and built a comprehensive RESTful API using Node.js and Express.js. The API handles all data manipulation, serves content to the frontend, and enforces authentication middleware for protected routes.",
+        "Responsive & Interactive Frontend: Engineered a pixel-perfect, mobile-first user interface with React.js. Utilized React Router for seamless page navigation and modern React hooks for efficient state management, creating an intuitive and engaging user experience.",
+        "Contact Form Integration: Implemented a functional contact form with client-side validation that sends data to a dedicated backend endpoint for processing, either by storing it in the database or triggering an email notification."
+      ],
+      "techStack": ["React.js", "React Router", "Axios", "HTML5", "CSS3", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "bcrypt.js", "Git", "Render", "Netlify", "MongoDB Atlas"],
+      "images": "client/public/assets/portfolios-images",
+      "githubLink": "https://github.com/Ashmit-tech-18"
+    },
+    {
+      "title": "Spotify Clone (Frontend)",
+      "slug": "spotify-clone-frontend",
+      "shortDescription": "Designed and developed a responsive, interactive clone of the Spotify web player's front-end using HTML, CSS, and pure JS.",
+      "detailedDescription": "A responsive, front-end clone of the Spotify web player, built exclusively with HTML, CSS, and vanilla JavaScript to showcase core front-end development skills. This project was a detailed exercise in replicating the complex user interface and core front-end functionality of the popular Spotify web player. The primary objective was to deconstruct a modern, real-world application and rebuild it from scratch, relying solely on foundational web technologies without the aid of any frameworks or libraries. The challenge involved meticulously structuring the application's layout, including the collapsible sidebar, the main content grid, and the persistent bottom music player bar, using modern CSS techniques like Flexbox and Grid to ensure full responsiveness. Vanilla JavaScript was the engine driving all client-side interactivity. This included implementing the complete logic for the audio player, managing play/pause states, tracking song progress with a draggable seek bar, and controlling volume with an interactive slider. To simulate a dynamic application, JavaScript was also used to fetch and render playlists and song data from a local JSON file, effectively mimicking the behaviour of consuming a live API endpoint. This project demonstrates a strong command of front-end fundamentals, an acute attention to UI/UX detail, and the ability to build a sophisticated and interactive user experience from the ground up.",
+      "keyFeatures": [
+        "Pixel-Perfect & Responsive Design: Faithfully recreated the Spotify UI, ensuring a seamless and fully responsive experience on desktop, tablet, and mobile devices using advanced CSS.",
+        "Interactive Music Player: Implemented a fully functional audio player with controls for play/pause, next/previous tracks, shuffle, repeat, and a visual progress bar that users can interact with to seek through a track.",
+        "Dynamic Content Rendering: Utilized vanilla JavaScript to dynamically populate the UI with albums, playlists, and tracklists from a local data object, simulating real-world data flow.",
+        "Pure JavaScript Interactivity: Developed all interactive elements, including the volume control slider, hover effects, and active states, using only vanilla JavaScript and DOM manipulation."
+      ],
+      "techStack": ["HTML5", "CSS3", "JavaScript (ES6+)", "CSS Flexbox & Grid", "DOM Manipulation"],
+      "images": "client/public/assets/spotify-clone-images",
+      "githubLink": "https://github.com/Ashmit-tech-18/Spotify-clone"
+    },
+    {
+        "title": "Summer Olympics Analysis Dashboard",
+        "slug": "Summer-olympics-dashboard",
+        "shortDescription": "Developed a dynamic and interactive dashboard using Power BI to analyze historical Summer Olympics data, focusing on country-wise performance, athlete records, and event trends.",
+        "detailedDescription": "An interactive Power BI dashboard providing a comprehensive analysis of over a century of Summer Olympics data (1896-2012). The goal of this project was to transform a large, raw historical dataset of the Summer Olympic Games into an intuitive, interactive, and visually compelling dashboard using Microsoft Power BI. The project encompassed the entire business intelligence workflow, beginning with the sourcing of the dataset and proceeding through a rigorous data cleaning and transformation phase using Power Query. This critical step involved handling thousands of records with missing values, standardizing inconsistent country names, splitting columns, and creating conditional logic to ensure data integrity. Following data preparation, a relational data model was established within Power BI. Advanced DAX (Data Analysis Expressions) was then authored to create a rich set of calculated columns and measures, enabling complex analyses such as medal counts per capita, gender distribution trends over decades, and top-performing athletes by sport. The final dashboard is a user-driven exploratory tool, featuring multiple interconnected pages that allow users to drill down from a high-level overview into granular details. It empowers users to filter the entire dataset by year, country, sport, and gender, uncovering hidden patterns and telling a compelling story with data.",
+        "keyFeatures": [
+            "End-to-End BI Solution: Managed the complete project lifecycle from data extraction and transformation (ETL) in Power Query to data modeling and final visualization.",
+            "Advanced DAX Calculations: Authored over 15 complex DAX measures to calculate KPIs such as total medals, athlete participation rates, and country-specific performance rankings.",
+            "Interactive & Dynamic Visuals: Designed a multi-page dashboard with slicers, tooltips, and cross-filtering enabled, allowing for in-depth, user-driven exploration of the dataset.",
+            "Data Storytelling: Structured the dashboard to present a clear narrative, guiding the user from a global summary to detailed insights about individual countries and sports."
+        ],
+        "techStack": ["Power BI", "Power Query (M)", "DAX", "Data Modeling", "Data Cleaning", "Data Visualization"],
+        "images": "client/public/assets/olympics-dashboard-images",
+        "githubLink": "Summer Olympics Analysis Dashboard"
+    },
+    {
+        "title": "Simon Says Game",
+        "slug": "simon-says-game",
+        "shortDescription": "Developed the complete game logic for the classic 'Simon Says' memory game, including random sequence generation and score tracking using JavaScript.",
+        "detailedDescription": "A web-based implementation of the classic 'Simon Says' memory game, built with pure JavaScript to demonstrate core programming logic and DOM manipulation skills. This project is a faithful recreation of the classic electronic memory game 'Simon Says,' developed entirely with vanilla JavaScript, HTML, and CSS. The primary goal was to architect the game's logic from scratch, focusing on state management, event handling, and asynchronous programming. The core engine, driven by JavaScript, programmatically generates a random sequence of colors and sounds, which expands by one step after each successful round, progressively increasing the difficulty for the player. A key aspect of the development was managing the game's state, which involved tracking the master sequence, the player's input sequence, the current level, and the high score. JavaScript event listeners are attached to each colored panel to capture user clicks, which are then validated against the computer-generated pattern in real-time. The DOM is heavily manipulated to provide immediate visual and auditory feedback—flashing the panels, playing corresponding tones, and updating status messages. Asynchronous JavaScript (setTimeout) was crucial for managing the game's timing and rhythm, creating controlled pauses between the computer's signals to allow the player time to observe and memorize the sequence. This project serves as a strong, practical demonstration of fundamental programming concepts in a fun and interactive package.",
+        "keyFeatures": [
+            "Robust Game Logic: Developed a complete game engine in JavaScript that generates random sequences, tracks player progress, validates input, and manages game-over and level-up conditions.",
+            "Interactive DOM Manipulation: Used JavaScript to directly manipulate the DOM for all visual feedback, including animating button flashes and updating the game's score and status in real-time.",
+            "Asynchronous Control Flow: Leveraged asynchronous JavaScript to manage the timing of the computer's turn, creating a smooth and playable user experience.",
+            "Audio-Visual Integration: Integrated corresponding sound effects and visual cues for each color in the sequence, enhancing the user experience and faithfully recreating the classic game feel."
+        ],
+        "techStack": ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "State Management"],
+        "images": "client/public/assets/simon-images",
+        "githubLink": "https://github.com/Ashmit-tech-18/SIMON-SAYS-GAME"
+    }
+  ],
+  "certificates": [
+    {"title": "Full Stack Web Development", "image": "client/public/assets/certificates/image1.JPG", "link": ""},
+    {"title": "Data Science Specialization", "image": "client/public/assets/certificates/image2.JPG", "link": ""},
+    {"title": "IBM Certified Data & AI Analyst", "image": "client/public/assets/certificates/image3.JPG", "link": ""},
+    {"title": "Power BI Certificate", "image": "client/public/assets/certificates/image4.JPG", "link": ""},
+    {"title": "Cyber Security", "image": "client/public/assets/certificates/image5.JPG", "link": ""},
+    {"title": "Python for Data Science", "image": "client/public/assets/certificates/image6.JPG", "link": ""}
+  ],
+  "blogs": [
+    {
+      "title": "Geopolitics, the Indian Way: From Non-Alignment to a Leading Power 🇮🇳",
+      "image": "client/public/assets/blog1-images",
+      "shortIntro": "Geopolitics is the grand chessboard on which nations navigate their interests. We'll dive deep into how our burgeoning economy, revolutionary technology, and deft diplomacy are scripting India's rise as a 21st-century global power, all while staying true to our civilizational ethos of 'Vasudhaiva Kutumbakam'—the world is one family.",
+      "fullContent": "For centuries, the story of geopolitics was largely written by others, for others. It was a story of empires, of cold wars, and of a bipolar world where nations were forced to pick a side. But today, a new chapter is being written, and a pen is firmly in the hand of a resurgent India. As a proud Indian, watching our nation navigate this complex global stage isn't just a matter of interest; it's a source of immense pride and optimism. So, how does geopolitics work from an Indian perspective? It's not about dominance. It's about influence, balance, and carving out a space to secure our national interests while contributing to global good. It’s about fulfilling our \"tryst with destiny.\" Let's break down how Bharat is making its mark. ## The Core Philosophy: Strategic Autonomy & Multi-Alignment\nFor decades after independence, our guiding principle was Non-Alignment. In a world split between the USA and the USSR, we chose not to be part of any military bloc. It was a principled stand, but at times, it left us isolated. The India of the 21st century has evolved this into a more dynamic concept: Strategic Autonomy or Multi-Alignment. What does this mean? It means India doesn't have permanent allies or enemies; we have permanent interests. We will work with the United States in the Quad alliance to ensure a free and open Indo-Pacific, and on the same day, we will sit with Russia and China in the SCO (Shanghai Cooperation Organisation) to discuss regional security and trade. We are a leading voice in BRICS and simultaneously strengthening our ties with Europe. We are not just a \"swing state\"; we are a leading power that builds bridges. We make decisions not based on pressure from Washington, Moscow, or Beijing, but on what is best for the 1.4 billion people of India. This is the ‘India First’ foreign policy in action. ## Pillar 1: Economic Might – The Engine of Our Ambition 💪\nGeopolitics is fundamentally powered by economics. A nation's influence is directly proportional to the size and strength of its economy. And here, India's story is nothing short of spectacular. We are the world's fastest-growing major economy. We have surpassed our former colonial ruler, the UK, to become the 5th largest economy and are on track to overtake Germany and Japan within the next few years. The dream of a $5 trillion economy is no longer a dream; it's an imminent reality. But how does this translate to geopolitical power? A Market No One Can Ignore: Global companies from Apple to Tesla are lining up to invest and manufacture in India (Make in India). This gives us leverage. We are no longer just a market; we are a manufacturing and innovation hub. Funding Our Power: A strong economy allows us to modernize our military, build world-class infrastructure (highways, ports, airports), and fund our strategic ambitions without relying on others. Becoming a Global Helper: When Sri Lanka faced an economic crisis, India was the first to step up with billions in aid. We provide development assistance across Africa and our neighbourhood. We are no longer just a recipient of aid; we are a provider of solutions. ## Pillar 2: Technological Prowess – The Digital Revolution 🚀\nIf the economy is our engine, technology is our accelerator. India's technological leap has given us a unique edge on the world stage. The crown jewel is our UPI (Unified Payments Interface). This isn't just a payment system; it's a tool of diplomatic influence. Countries like France, UAE, and Singapore are now integrating with UPI. We have created a world-class digital public infrastructure and are now offering it to the world as an alternative to dominant Western or Chinese models. It’s technology with a democratic, open-source ethos. Beyond UPI: Space Leadership: Our space agency, ISRO, is the envy of the world. We reached Mars on our first attempt with the Mangalyaan mission at a fraction of the cost of other nations. Our Chandrayaan missions are pushing the boundaries of lunar exploration. We provide cost-effective satellite launch services to the world. Startup Hub: India has one of the world's largest startup ecosystems, churning out unicorns that are solving global problems. We are the world's pharmacy, the world's vaccine hub, and an emerging hub for semiconductor design and AI innovation. This technological self-reliance, or Aatmanirbhar Bharat, reduces our dependence on others and makes other nations dependent on our innovation and talent. ## Pillar 3: Diplomatic Finesse – The Art of the Deal 🤝\nWith economic and technological power as our foundation, our diplomacy has become more confident and assertive. Neighbourhood First: We are re-establishing our natural role as the leader and net security provider in the Indian subcontinent. From providing electricity to Nepal and Bangladesh to building ports and infrastructure, we are ensuring a stable and prosperous neighbourhood. Voice of the Global South: During our G20 presidency, India firmly established itself as the voice of the developing nations of Asia, Africa, and Latin America. We ensured the African Union became a permanent member. The world now looks to us to bridge the gap between the developed and developing worlds. Balancing Act: Our ability to manage relations with rival powers like the US, Russia, and Iran simultaneously is a masterclass in modern diplomacy. It confuses analysts who see the world in black and white, but it is the essence of securing Indian interests. We are guided by the wisdom of 'Sarve Bhavantu Sukhinah'—may all be prosperous and happy. ## The Road Ahead: A Leading Power with a Conscience\nIndia's rise is not a threat. We do not seek to export ideology or to challenge the world order aggressively. We are a civilizational state reawakening to its potential. Our goal is to create a multipolar world where a multipolar Asia is a key component, with India as one of its primary poles. The path to Viksit Bharat (Developed India) by 2047 is clear. It is a path paved with economic strength, technological innovation, social development, and a foreign policy that is both pragmatic and principled. As a proud Indian, I see a future where our nation is not just a balancing power, but a leading power—a nation that helps shape global norms, provides global solutions, and stands as a beacon of hope and democracy for the world. Jai Hind! 🙏🇮🇳"
+    },
+    {
+      "title": "AI in India: It's Not Just Code, It's Changing Our Lives",
+      "image": "client/public/assets/blog2-images",
+      "shortIntro": "In this new world, data is the new oil. We need to make sure that the data of 1.4 billion Indians is used for India's benefit, safely and securely.",
+      "fullContent": "Sitting here in Lucknow, a city known for its history, its politeness (tehzeeb), and its delicious kebabs, the idea of \"Artificial Intelligence\" can feel a bit... distant. It sounds like something out of a sci-fi movie, something for tech hubs like Bengaluru or Silicon Valley. But then, I pull out my phone to pay for my chai with UPI. I open Swiggy and it already knows I might want my usual biryani. I scroll through YouTube and it recommends a ghazal that I haven't heard in years, but instantly love. That’s when it hits me. AI isn't some far-off future. It's already here, woven into the fabric of our daily lives, quietly and efficiently. And in India, its impact is shaping up to be one of the most incredible stories of our generation. ## The Good Stuff: AI as a Helping Hand\nLet's be honest, the best technology is the kind you don't even notice. For me, the biggest, most positive impact of AI in India is how it’s becoming a great leveller. Think about the Indian farmer, the backbone of our country. For centuries, they've relied on tradition and instinct. Now, AI is giving them superpowers. There are apps that can analyze a picture of a leaf to detect disease. Drones using AI can monitor crop health and spray pesticides exactly where needed, saving money and improving yields. AI-powered weather forecasts are more accurate than ever, helping our kisans protect their livelihood. This isn't just technology; it's a tool for empowerment. Then there's healthcare. In a country as vast as ours, getting access to a specialist doctor can be tough, especially in villages. AI is changing that. AI algorithms can now look at an X-ray or an eye scan and spot signs of diseases like tuberculosis or diabetic retinopathy with incredible accuracy, sometimes even better than a human. This means a technician in a small rural clinic can provide an initial diagnosis that could save someone's life. And it’s not just in the villages. From making our online shopping more personal to helping manage traffic in our chaotic cities, AI is working in the background to make things just a little bit easier. ## The Worries: The Questions We Need to Ask 🤔\nNow, I'm an optimist, but I'm also a realist. It would be foolish to ignore the anxieties that come with a technology this powerful. The number one question on everyone's mind is jobs. We’re a country with a massive, young workforce. Will AI take away jobs, especially in sectors like customer support and data entry where so many Indians have found employment? It’s a valid fear. I don’t think we can stop the change, but we can adapt. The Indian spirit of jugaad and adaptation is legendary. We adapted to computers, and we’ll adapt to AI. But this time, it requires a massive national effort in skilling. We need to train our youth not for the jobs of yesterday, but for the jobs of tomorrow—AI developers, data scientists, prompt engineers, and AI ethics officers. My other big worry is bias. An AI is only as good as the data it's trained on. If we train an AI on data that reflects our existing social biases, it will only amplify them. Imagine an AI for loan applications that is biased against people from a certain region or gender because of historical data. That's a scary thought. We have to be incredibly careful to build AI that is fair and equitable for every single Indian. And finally, who owns our data? In this new world, data is the new oil. We need to make sure that the data of 1.4 billion Indians is used for India's benefit, safely and securely. ## So, What Do I Really Think?\nAI is a double-edged sword, there’s no doubt about it. It holds the promise of solving some of our nation's biggest challenges, but it also presents us with some tough questions. For me, AI is like electricity was a century ago. It's a fundamental new force. We can't un-invent it. The choice we have is not if we use it, but how we use it. I believe we have a unique opportunity to build an AI that is truly Indian. An AI that understands not just English and Hindi, but Tamil, Bengali, and Bhojpuri. An AI that is designed not just to create profit, but to create public good. An AI that reflects our incredible diversity and our deep-rooted values. The future isn't about us versus the machine. It's about how we, the people of India, use this incredible new tool to build a better, healthier, and more prosperous future for ourselves. And that's a future I'm genuinely excited to be a part of."
+    },
+    {
+      "title": "The Most Important Skill I’ve Learned",
+      "image": "client/public/assets/blog3-images",
+      "shortIntro": "It’s the skill of learning how to learn.",
+      "fullContent": "We spend so much time building our resumes. We list our technical skills—Python, JavaScript, Power BI, SEO marketing. We list our past job titles, our certifications, our degrees. We package ourselves into neat bullet points, hoping the right combination of keywords will catch a recruiter's eye. I do it too. But recently, I realized the single most valuable skill I've developed over the years is one that I can't really list as a bullet point. It’s the skill that sits behind all the others. It’s the skill of learning how to learn. It sounds simple, almost trivial, but in a world that’s changing faster than we can update our LinkedIn profiles, it’s become my professional superpower. And I believe it’s what truly makes someone valuable in any team. ## The Overwhelm is Real\nThink about it. A new AI model comes out and suddenly \"prompt engineering\" is a thing. Your company adopts a new project management software and you have one week to get up to speed. A new marketing channel emerges and you have to figure out the strategy from scratch. The old way was to wait for a training session or a formal course. The new reality is that you have to become your own teacher, and you have to do it fast. For me, navigating this constant stream of \"newness\" meant I had to stop just consuming information and start building a system for learning. Here’s the simple, four-step framework that I use. 1. Deconstruct: Break It Down 🧱\nThe first thing I do when faced with a huge, scary topic like \"learn data visualization\" is to refuse to look at it as one big mountain. I break it down into the smallest possible pieces. It’s like looking at a castle made of LEGOs. You don't build the whole castle at once. You start by understanding one brick. For data visualization, it might look like this: What is a bar chart good for? How do I import a CSV file into Power BI? What is the difference between a measure and a calculated column? How do I change the color of a single bar? By breaking it down, the topic goes from intimidating to a simple checklist. It becomes manageable. 2. Immerse: Get Your Hands Dirty, Fast 🚀\nTheory is comfortable, but it’s a trap. You can watch a hundred videos on how to swim, but you'll only learn when you get in the water. I give myself permission to be a beginner and aim to complete a tiny, practical project within the first few hours of learning something new. If I'm learning a new programming library, I won't just read the documentation. I'll find a small problem and try to solve it with that library, even if my code is messy and inefficient. The goal isn't perfection; it's to build momentum and connect the theoretical dots in a practical way. 3. Feedback Loops: Ask \"Am I Doing This Right?\" 🔁\nLearning in a bubble is the slowest way to grow. The fastest way is to create tight feedback loops. This means actively seeking criticism. Wrote some code? Ask a senior colleague to spend five minutes reviewing it. Built a dashboard? Show it to the person who will actually use it and ask, \"What's confusing about this?\" Learned a new concept? Try to explain it to a friend and see if they understand. The feedback might sting a little, but it cuts the learning curve by half. It points you directly to your blind spots. 4. Teach: The Ultimate Test ✅\nYou never truly know something until you can explain it simply to someone else. This is the final step in my process. It forces me to organize my thoughts and identify any gaps in my own understanding. This doesn't have to be a formal presentation. It could be: Writing a short post about it. Showing a teammate a new shortcut you learned. Answering a question about it in an online forum. If you can teach it, you own it."
+    }
+  ],
+  "research": [
+    {
+      "title": "AI for Education: Transforming Learning and Teaching",
+      "image": "client/public/assets/Research-images",
+      "shortIntro": "AI-based learning, which makes use of digital tools and resources to improve teaching and learning experiences, has become a revolutionary method in the quickly changing field of education.",
+      "link": "https://drive.google.com/file/d/18qz0KFWVd_cgXU0IA6N-H7npLI1YNyEi/view"
+    }
+  ]
+}
